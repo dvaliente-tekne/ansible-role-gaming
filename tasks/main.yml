@@ -10,6 +10,7 @@
   community.general.pacman:
     name: "{{ gaming_packages }}"
     state: present
+    extra_args: '--noconfirm --needed'
   register: gaming_install_result
   tags:
     - gaming
