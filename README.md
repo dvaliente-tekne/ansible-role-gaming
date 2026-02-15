@@ -71,8 +71,9 @@ game lutris
 | Tag | Description |
 |-----|-------------|
 | `gaming` | All gaming tasks |
+| `network` | Network connectivity wait (before packages) |
 | `packages` | Package installation only |
-| `config` | File configuration only |
+| `config` | game.conf and game script deployment |
 | `verify` | Verification tasks |
 
 ## License
